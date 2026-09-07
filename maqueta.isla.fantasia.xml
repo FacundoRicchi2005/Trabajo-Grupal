@@ -10,7 +10,7 @@
             "Cataratas de Miel" es un destino al que cualquier amante de la naturaleza deberia ir.
             <parrafo>
                 Lugar ubicado en una isla al Oeste del Caribe. Clima cálido y con una flora y fauna tropical
-                alucinante. Encontraras diversas especies de aves, reptiles y mamíferos. Hogar del
+                alucinante. Encontraras diversas especies de aves, reptiles y mamíferos(imagen de referencia). Hogar del
                 famoso "Gato Calabaza", un felino unico en el mundo, que solo se encuentra en esta isla. Conocido
                 por su característico tamaño, y color semejante al de una calabaza. Pocas veces sale a la superficie, ya que,
                 es el único animal que inverna casi las 4 estaciones del año. (imagen de referencia)
@@ -20,13 +20,14 @@
                 Además, podrás disfrutar de excursiones a la famosa Cascada de Miel; senderismo por la selva de pastas; y visitas a los pueblos de gengibre
                 donde se ubica el lago de Chocolate (añadir imagen de referencia).
             </parrafo>
+        <seccion>
             <eventos>
                 <nombre>Festival de la Calabaza</nombre>
                 <descripcion>
                     Este festival se celebra cara año en el mes de Junio, donde se agradece la llegada
                     del gran Gato Calabaza, por brindar prosperidad y enormes cantidades de dulces al
                     pueblo gengibre.
-                        <actividad 01>
+                        <actividad01>
                             <nombre>Concurso de banquetes</nombre>
                             <descripcion>
                                 Se realiza un concurso de banquetes, donde los habitantes del pueblo
@@ -34,8 +35,8 @@
                                 deleitar al Gato Calabaza, y que este otorgue su bendición a los habitantes
                                 para otro año de prosperidad y abundancia. (imagen de referencia)
                             </descripcion>
-                        </actividad 01>
-                        <actividad 02>
+                        </actividad01>
+                        <actividad02>
                             <nombre>Baile Salado</nombre>
                             <descripcion>
                                 Se realiza un baile en la plaza del pueblo, donde los habitantes del pueblo
@@ -46,4 +47,24 @@
                             </descripcion>
                         </actividad 02>
                 </descripcion>
-            
+            </eventos>
+            <propuestas>
+                <seccion>
+                    <nombre>propuestas culturales</nombre>
+                    <descripcion>
+                        <propuesta01>
+                            <nombre>Visita al Museo de la Isla</nombre>
+                            <descripcion>
+                                El museo de la isla, es un lugar donde se exhiben diversas piezas arqueológicas, como vasijas de chocolate,
+                                flechas de caramelo, y utensilios de cocina de los antiguos habitantes de la isla. (imagen de referencia)
+                                Y elementos históricos que relatan la historia de la isla, como el primer mapa, documentos, y sobre la llegada del Gato Calabaza.
+                            </descripcion>
+                        </propuesta01>
+                        <propuesta02>
+                            <nombre>Pesca de Caramelo</nombre>
+                            <descripcion>
+                                La pesca de caramelo, es una actividad que se realiza en el lago de chocolate,
+                                donde los visitantes pueden pescar caramelos de diferentes sabores y colores, utilizando cañas de pescar especiales, y redes de algodón. (imagen de referencia)
+                            </descripcion>
+                        </propuesta02>
+            </propuestas>
