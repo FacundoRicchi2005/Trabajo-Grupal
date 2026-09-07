@@ -3,30 +3,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Inicio>
-    <Presentacion>
+    <presentacion>
         <Titulo>Bienvenido a *viajes de lujo*</Titulo>
-        <Descripcion>
-            Solo por hoy, contamos con una oferta especial para este gran lugar.
-            "Cataratas de Miel" es un destino al que cualquier amante de la naturaleza deberia ir.
-            <parrafo>
-                Lugar ubicado en una isla al Oeste del Caribe. Clima cálido y con una flora y fauna tropical
-                alucinante. Encontraras diversas especies de aves, reptiles y mamíferos(imagen de referencia). Hogar del
-                famoso "Gato Calabaza", un felino unico en el mundo, que solo se encuentra en esta isla. Conocido
-                por su característico tamaño, y color semejante al de una calabaza. Pocas veces sale a la superficie, ya que,
-                es el único animal que inverna casi las 4 estaciones del año. (imagen de referencia)
-            </parrafo>
-            <parrafo>
-                La isla cuenta con una gran variedad de playas, desde las más tranquilas y solitarias, hasta las más concurridas y con actividades acuáticas. 
-                Además, podrás disfrutar de excursiones a la famosa Cascada de Miel; senderismo por la selva de pastas; y visitas a los pueblos de gengibre
-                donde se ubica el lago de Chocolate (añadir imagen de referencia).
-            </parrafo>
-        <seccion>
+            <descripcion>
+                Solo por hoy, contamos con una oferta especial para este gran lugar.
+                "Cataratas de Miel" es un destino al que cualquier amante de la naturaleza deberia ir.
+                    <parrafo>
+                        Lugar ubicado en una isla al Oeste del Caribe. Clima cálido y con una flora y fauna tropical
+                        alucinante. Encontraras diversas especies de aves, reptiles y mamíferos(imagen de referencia). Hogar del
+                        famoso "Gato Calabaza", un felino unico en el mundo, que solo se encuentra en esta isla. Conocido
+                        por su característico tamaño, y color semejante al de una calabaza. Pocas veces sale a la superficie, ya que,
+                        es el único animal que inverna casi las 4 estaciones del año. (imagen de referencia)
+                    </parrafo>
+                    <parrafo>
+                        La isla cuenta con una gran variedad de playas, desde las más tranquilas y solitarias, hasta las más concurridas y con actividades acuáticas. 
+                        Además, podrás disfrutar de excursiones a la famosa Cascada de Miel; senderismo por la selva de pastas; y visitas a los pueblos de gengibre
+                        donde se ubica el lago de Chocolate (añadir imagen de referencia).
+                    </parrafo>
+            </descripcion>    
+        </presentacion>
+        <seccion1>
             <eventos>
                 <nombre>Festival de la Calabaza</nombre>
                 <descripcion>
                     Este festival se celebra cara año en el mes de Junio, donde se agradece la llegada
                     del gran Gato Calabaza, por brindar prosperidad y enormes cantidades de dulces al
                     pueblo gengibre.
+                </descripcion>
                         <actividad01>
                             <nombre>Concurso de banquetes</nombre>
                             <descripcion>
@@ -45,13 +48,12 @@
                                 como quesos y fiambres. Se cuenta que el Gato Calabaza, suele aparecer en el baile ya que
                                 es atraido por la melodia y los ricos olores. (imagen de referencia)
                             </descripcion>
-                        </actividad 02>
-                </descripcion>
-            </eventos>
-            <propuestas>
-                <seccion>
-                    <nombre>propuestas culturales</nombre>
+            <seccion2>
+                <nombre>propuestas culturales</nombre>
                     <descripcion>
+                        Esta isla tiene lindas actividades autóctonas, que te ayudaran a conocer y a participar como uno mas
+                        de este colorido pueblo
+                    </descripcion>
                         <propuesta01>
                             <nombre>Visita al Museo de la Isla</nombre>
                             <descripcion>
@@ -68,3 +70,4 @@
                             </descripcion>
                         </propuesta02>
             </propuestas>
+</inicio>
