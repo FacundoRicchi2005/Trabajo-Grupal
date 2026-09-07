@@ -1,0 +1,49 @@
+#Trabajo Grupal-Index.html
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Inicio>
+    <Presentacion>
+        <Titulo>Bienvenido a *viajes de lujo*</Titulo>
+        <Descripcion>
+            Solo por hoy, contamos con una oferta especial para este gran lugar.
+            "Cataratas de Miel" es un destino al que cualquier amante de la naturaleza deberia ir.
+            <parrafo>
+                Lugar ubicado en una isla al Oeste del Caribe. Clima cálido y con una flora y fauna tropical
+                alucinante. Encontraras diversas especies de aves, reptiles y mamíferos. Hogar del
+                famoso "Gato Calabaza", un felino unico en el mundo, que solo se encuentra en esta isla. Conocido
+                por su característico tamaño, y color semejante al de una calabaza. Pocas veces sale a la superficie, ya que,
+                es el único animal que inverna casi las 4 estaciones del año. (imagen de referencia)
+            </parrafo>
+            <parrafo>
+                La isla cuenta con una gran variedad de playas, desde las más tranquilas y solitarias, hasta las más concurridas y con actividades acuáticas. 
+                Además, podrás disfrutar de excursiones a la famosa Cascada de Miel; senderismo por la selva de pastas; y visitas a los pueblos de gengibre
+                donde se ubica el lago de Chocolate (añadir imagen de referencia).
+            </parrafo>
+            <eventos>
+                <nombre>Festival de la Calabaza</nombre>
+                <descripcion>
+                    Este festival se celebra cara año en el mes de Junio, donde se agradece la llegada
+                    del gran Gato Calabaza, por brindar prosperidad y enormes cantidades de dulces al
+                    pueblo gengibre.
+                        <actividad 01>
+                            <nombre>Concurso de banquetes</nombre>
+                            <descripcion>
+                                Se realiza un concurso de banquetes, donde los habitantes del pueblo
+                                Gengibre, preparan los mejores banquetes de la isla, cuya finalidad es
+                                deleitar al Gato Calabaza, y que este otorgue su bendición a los habitantes
+                                para otro año de prosperidad y abundancia. (imagen de referencia)
+                            </descripcion>
+                        </actividad 01>
+                        <actividad 02>
+                            <nombre>Baile Salado</nombre>
+                            <descripcion>
+                                Se realiza un baile en la plaza del pueblo, donde los habitantes del pueblo
+                                Gengibre, bailan al ritmo de la música salada, que es un ritmo tipico de la isla,
+                                donde utilizan maracas llenas de sal gruesa y se utilizan de ofrenda, entradas saladas,
+                                como quesos y fiambres. Se cuenta que el Gato Calabaza, suele aparecer en el baile ya que
+                                es atraido por la melodia y los ricos olores. (imagen de referencia)
+                            </descripcion>
+                        </actividad 02>
+                </descripcion>
+            
