@@ -37,3 +37,12 @@ body {
         margin: 0 auto;
         padding: 0 1rem;
 }
+
+nav {
+    background-color: var(--azul);
+    color: var(--fondo);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
