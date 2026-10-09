@@ -7,7 +7,7 @@
     --fondo: #F9FAF7;
     --texto: #1A1A1A;
     --fuente: "Poppins", sans-serif;
-    --fuente2:"Archivo", sans-serif;
+    --fuente2:"Montserrat", sans-serif;
 }
 
 * {
@@ -21,15 +21,26 @@
 
 }
 
-h2{
-    font-family:var(--fuente2);
-    font-size: 16px;
-    color: var(--verde-oliva);
+h1 {
+    font-family: var(--fuente2);
+    font-size: 2.2rem;
+    color: var(--verde-oliva)
+}
 
+h2 {
+    font-family: var(--fuente2);
+    font-size: 1.7rem;
+    color: var(--verde-oliva)
+}
+
+h3 {
+    font-family: var(--fuente);
+    font-size: 1.3rem;
+    color: var(--texto)
 }
 
 body {
-        font-family: var(--fuente-principal), sans-serif;
+        font-family: var(--fuente2);
         font-size: 16px;
         line-height: 1.6;
         max-width: 1100px;
@@ -88,3 +99,12 @@ section {
     padding: 10px;
     margin: 10px 0;
 }
+
+*---poner en head de cada html---
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+*/
