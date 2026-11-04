@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
 }
-.menu principal{
+.menu.principal{
     background-color: #0A1D8F;
     font-family: var(--fuente2);
 
