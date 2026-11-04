@@ -16,7 +16,7 @@
     padding: 0;
 }
 .menu.principal{
-    background-color: #0A1D8F;
+    background-color: var(--azul);
     font-family: var(--fuente2);
 
 }
