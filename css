@@ -1,0 +1,109 @@
+:root {
+    --azul: #0A1D8F;
+    --verde-oscuro: #1A4731;
+    --verde-medio: #2D6A4F;
+    --naranja: #E8611A;
+    --verde-oliva:#B0D80B;
+    --fondo: #F9FAF7;
+    --texto: #1A1A1A;
+    --fuente: "Poppins", sans-serif;
+    --fuente2:"Montserrat", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover{
+    color: var(--naranja);
+}
+
+h1 {
+    font-family: var(--fuente2);
+    font-size: 2.2rem;
+    color: var(--verde-oliva)
+}
+
+h2 {
+    font-family: var(--fuente2);
+    font-size: 1.7rem;
+    color: var(--verde-oliva)
+}
+
+h3 {
+    font-family: var(--fuente);
+    font-size: 1.3rem;
+    color: var(--texto)
+}
+
+body {
+        font-size: 16px;
+        line-height: 1.6;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 1rem;
+}
+
+.navbar {
+    background-color: var(--naranja);
+    color: var(--azul);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+.navlinks {
+    color: var(--azul);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: var(--fondo);
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin:auto;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.logo {
+    height: 40px;
+    display: block;
+}
+
+footer, 
+p, 
+section {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/*---poner en head de cada html---
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        
+<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+*/
