@@ -1,4 +1,3 @@
-
 let boton = document.getElementById("btnModo");
 
 boton.addEventListener("click", function() {
