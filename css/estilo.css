@@ -39,15 +39,11 @@ h3 {
 }
 
 body {
-        font-size: 16px;
-        line-height: 1.6;
-        max-width: 1100px;
-        margin: 0 auto;
-        padding: 0 1rem;
+       background-color: rgb(120, 123, 203);
 }
 
 .navbar {
-    background-color: var(--naranja);
+    background-color: rgb(39, 44, 90);
     color: var(--azul);
     display: flex;
     flex-direction: row;
@@ -57,7 +53,7 @@ body {
     gap: 1rem;
 }
 .navlinks {
-    color: var(--azul);
+    color: rgb(246, 219, 63);
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -87,7 +83,7 @@ header {
 }
 
 .logo {
-    height: 40px;
+    height: 100px;
     display: block;
 }
 
@@ -97,6 +93,7 @@ section {
     padding: 10px;
     margin: 10px 0;
 }
+
 
 /*---poner en head de cada html---
         <link rel="preconnect" href="https://fonts.googleapis.com">
