@@ -1,13 +1,28 @@
 :root {
     --azul: #0A1D8F;
+    --azul-marino: #302c9b;
     --verde-oscuro: #1A4731;
     --verde-medio: #2D6A4F;
-    --naranja: #E8611A;
-    --verde-oliva:#B0D80B;
+    --color-titulo: #E8611A;
+    --verde-oliva: #B0D80B;
     --fondo: #F9FAF7;
     --texto: #1A1A1A;
+    --dorado: #FFD700;
+    --color-body: #2D6A4F;
+    --color-navbar: #B0D80B;
+    --color-main: #F9FAF7;
     --fuente: "Poppins", sans-serif;
-    --fuente2:"Montserrat", sans-serif;
+    --fuente2: "Montserrat", sans-serif;
+}
+
+.modo-claro {
+    --color-body: #BDE0E8;       
+    --color-navbar: #F4D6A0;     
+    --color-main: #FFFDF5;       
+    --texto: #173B57;           
+    --color-titulo: #0077A8;  
+    --azul: #075985;
+    --dorado: #E6A23C;
 }
 
 * {
@@ -17,33 +32,39 @@
 }
 
 a:hover{
-    color: var(--naranja);
+    color: var(--verde-oscuro);
 }
 
 h1 {
     font-family: var(--fuente2);
     font-size: 2.2rem;
-    color: var(--verde-oliva)
+    color: var(--color-titulo);
 }
 
 h2 {
     font-family: var(--fuente2);
     font-size: 1.7rem;
-    color: var(--verde-oliva)
+    color: var(--color-titulo);
 }
 
-h3 {
+h3,
+p {
     font-family: var(--fuente);
     font-size: 1.3rem;
-    color: var(--texto)
+    color: var(--texto);
 }
 
 body {
-       background-color: rgb(120, 123, 203);
+    background-color: var(--color-body);
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .navbar {
-    background-color: rgb(39, 44, 90);
+    background-color: var(--color-navbar);
     color: var(--azul);
     display: flex;
     flex-direction: row;
@@ -52,11 +73,8 @@ body {
     padding: 1rem;
     gap: 1rem;
 }
-.navlinks {
-    color: rgb(246, 219, 63);
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
+
+.navlinks ul {
     display: flex;
     flex-direction: row;
     gap: 24px;
@@ -65,8 +83,19 @@ body {
     padding: 0;
 }
 
+.navlinks a {
+    color: var(--azul);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navlinks a:hover {
+    color: var(--dorado);
+}
+
 main {
-    background-color: var(--fondo);
+    background-color: var(--color-main);;
     padding: 2rem;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -83,24 +112,13 @@ header {
 }
 
 .logo {
-    height: 100px;
     display: block;
+    width: 180px;
+    height: 160px;
 }
 
 footer, 
-p, 
 section {
     padding: 10px;
     margin: 10px 0;
 }
-
-
-/*---poner en head de cada html---
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        
-<link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-*/
