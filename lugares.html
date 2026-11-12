@@ -18,39 +18,32 @@
 </head>  
   
     <body>
-         <!-- Barra de navegación -->
+         <!-- Barra de navegación  // Botón de modo oscuro/claro + hamburguesa-->
         <header class="navbar navbar-expand-lg">
-            <div class="container-fluid justify-content-between">
-                <!-- Logo -->
-                
-            </div>
-
-            <!---Botón de modo oscuro/claro + hamburguesa-->
-            <div class="nav-container">
-                <div class="item-1">
+            <div class="container-fluid">
+                <div class="nav-container">
                     <a class="navbar-brand" href="index.html">
                         <img src="img/logo1.png" alt="Logo de Viajes de Lujo" class="logo">
                     </a>
                 </div>
-                    <div class="item item-2"><button id="btnModo">modo claro☀️</button>
+                <div class="d-flex align-items-end gap-2 ms-auto order-lg-last">
+                        <button id="btnModo">modo claro☀️</button>
 
-                    <button class=  "navbar-toggler" type="button" data-bs-toggle="collapse" 
-                                data-bs-target="#navbarNav" aria-controls="navbarNav" 
-                                aria-expanded="false" aria-label="Abrir Menú">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                        <button class=  "navbar-toggler" type="button" data-bs-toggle="collapse" 
+                                    data-bs-target="#navbarNav" aria-controls="navbarNav" 
+                                    aria-expanded="false" aria-label="Abrir Menú">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                 </div>
-
-                 <div class="d-flex align-items-center gap-2 order-lg-last">
-               
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item"><a class="nav-burger-link" href="index.html">Inicio</a></li>
-                            <li class="nav-item"><a class="nav-burger-link" href="ciudad.html">Ciudad</a></li>
-                            <li class="nav-item"><a class="nav-burger-link" href="lugares.html">Lugares</a></li>
-                            <li class="nav-item"><a class="nav-burger-link" href="contacto.html">Contacto</a></li>
-                        </ul>
-                    </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ciudad.html">Ciudad</a></li>
+                        <li class="nav-item"><a class="nav-link" href="lugares.html">Lugares</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                  
             </div>
 
         </header>
