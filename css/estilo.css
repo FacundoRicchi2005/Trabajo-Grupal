@@ -123,7 +123,26 @@ section {
     margin: 10px 0;
 }
 
-.logo {
-    height: 5rem;
+.logo img {
+    height: 3.5rem;
     width: auto;
+    justify-content: flex-start;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  min-height: 10rem;
+}
+
+.item-1 {
+  flex: 0 0 10rem;
+}
+
+.item-2 {
+  flex: 1 1 auto;
 }
