@@ -66,12 +66,8 @@ body {
 .navbar {
     background-color: var(--color-navbar);
     color: var(--azul);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     align-items: center;
     padding: 1rem;
-    gap: 1rem;
 }
 
 .navlinks ul {
@@ -123,19 +119,17 @@ section {
     width: auto;
 }
 
-.nav-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
-  gap: 1rem;
-  min-height: 10rem;
+.navbar .nav-link {
+    color: var(--azul);
+    font-weight: bold;
 }
 
-.item-1 {
-  flex: end 1 1 auto;
+.navbar .nav-link:hover {
+    color: var(--dorado);
 }
 
-.item-2 {
-  flex: 1 1 auto;
+.navbar > .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
