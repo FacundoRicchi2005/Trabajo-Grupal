@@ -123,38 +123,7 @@ section {
     margin: 10px 0;
 }
 
-.hamburger {
-  cursor: pointer;
-  padding-left: 1rem;
-}
-
-.nav-item {
-  display: none;
-}
-
-.nav-item.show {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.ul-hamburger {
-    background-color: var(--black);
-    padding-top: 1rem;
-    padding-bottom: 1rem;   
-}
-
-@media (min-width: 750px) {
-  .hamburger {
-    display: none;
-  }
-
-  .nav-list-hamburger {
-    display: flex;
-    justify-content: right;
-  }
-
-  .nav-item-hamburger {
-    display: block;
-    }
+.logo {
+    height: 3.5rem;
+    width: auto;
 }
