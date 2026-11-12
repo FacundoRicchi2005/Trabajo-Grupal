@@ -111,11 +111,6 @@ header {
     margin: 10px 0;
 }
 
-.logo {
-    display: block;
-    width: 180px;
-    height: 160px;
-}
 
 footer, 
 section {
@@ -123,24 +118,22 @@ section {
     margin: 10px 0;
 }
 
-.logo img {
-    height: 3.5rem;
+.logo {
+    height: 5rem;
     width: auto;
-    justify-content: flex-start;
 }
 
 .nav-container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: flex-end;
   gap: 1rem;
   min-height: 10rem;
 }
 
 .item-1 {
-  flex: 0 0 10rem;
+  flex: end 1 1 auto;
 }
 
 .item-2 {
