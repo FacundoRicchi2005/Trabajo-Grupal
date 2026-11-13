@@ -132,3 +132,9 @@ section {
         gap: 24px;
     }
 }
+
+p.introducción {
+    background-color: #e4ae4b;
+    padding: 1rem;
+    border-radius: 5px;
+}
