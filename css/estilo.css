@@ -165,3 +165,11 @@ h2#pueblo-jengibre {
     
     margin-top: 1rem;
 }
+
+p.introducción-contacto {
+    background-color: #e4ae4b;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
