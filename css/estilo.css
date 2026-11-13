@@ -114,6 +114,7 @@ section {
 .logo {
     height: 5rem;
     width: auto;
+    align-self: flex-start;
 }
 
 .navbar .nav-link {
@@ -137,4 +138,18 @@ p.introducción {
     background-color: #e4ae4b;
     padding: 1rem;
     border-radius: 5px;
+}
+
+header h1 {
+    font-size: 1rem;
+    color: var(--color-titulo);
+    text-align: start;
+    margin-bottom: 1rem;
+}
+
+p.introducción-ciudad {
+    background-color: #e4ae4b;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
 }
