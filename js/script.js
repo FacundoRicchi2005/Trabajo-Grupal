@@ -16,3 +16,15 @@ const navItem =  document.getElementById('nav-item');
 hamburger.addEventListener('click', () => {
   navItem.classList.toggle('show');
 });
+
+const btnVerMas = document.querySelectorAll("#btn-ver-mas");
+const contenido = document.querySelectorAll("#actividades");
+
+if (btnVerMas && contenido) {
+    btnVerMas.addEventListener("click", () => {
+        contenido.classList.toggle("oculto");
+
+        const abierto = !contenido.classList.contains("oculto");
+        boton.textContent = abierto ? "Ver menos" : "Ver más" ;
+    });
+}
