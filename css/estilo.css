@@ -177,3 +177,8 @@ p.introducción-contacto {
 .oculto {
     display: none;
 }
+
+.btn-ver-mas {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+}
