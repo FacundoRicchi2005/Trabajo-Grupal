@@ -11,12 +11,12 @@ boton.addEventListener("click", function() {
     }
 });
 //boton hamburguesa
-const hamburger =  document.getElementById('hamburger');
-const navItem =  document.getElementById('nav-item');
+//const hamburger =  document.getElementById('hamburger');
+//const navItem =  document.getElementById('nav-item');
 
-hamburger.addEventListener('click', () => {
-  navItem.classList.toggle('show');
-});
+//hamburger.addEventListener('click', () => {
+// navItem.classList.toggle('show');
+//}); ---> lo termine armando con bootstrap
 
 //boton ver mas
 document.querySelectorAll(".btn-ver-mas").forEach(boton => {

@@ -182,3 +182,10 @@ p.introducción-contacto {
     margin-left: 0.5rem;
     font-size: 1rem;
 }
+
+.actividades {
+    background-color:#c3a26f;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
