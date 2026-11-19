@@ -1,26 +1,26 @@
 :root {
-    --azul: #0A1D8F;
     --azul-marino: #302c9b;
     --verde-oscuro: #1A4731;
     --verde-medio: #2D6A4F;
-    --color-titulo: #E8611A;
+    --color-titulo: #fb8500;
     --verde-oliva: #B0D80B;
     --fondo: #F9FAF7;
     --texto: #1A1A1A;
     --dorado: #FFD700;
-    --color-body: #2D6A4F;
-    --color-navbar: #B0D80B;
-    --color-main: #F9FAF7;
+    --color-body: #2F3E46;
+    --color-navbar: #669BBC;
+    --azul: #648498;
+    --color-main: #FDF0D5;
     --fuente: "Poppins", sans-serif;
     --fuente2: "Montserrat", sans-serif;
 }
 
 .modo-claro {
-    --color-body: #BDE0E8;       
-    --color-navbar: #F4D6A0;     
-    --color-main: #FFFDF5;       
+    --color-body: #B9E7D0;       
+    --color-navbar: #f9d355;
+    --color-main: #FFF7E6;       
     --texto: #173B57;           
-    --color-titulo: #0077A8;  
+    --color-titulo: var(--color-titulo);  
     --azul: #075985;
     --dorado: #E6A23C;
 }
@@ -91,7 +91,7 @@ body {
 }
 
 main {
-    background-color: var(--color-main);;
+    background-color: var(--color-main);
     padding: 2rem;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -184,7 +184,7 @@ p.introducción-contacto {
 }
 
 .actividades {
-    background-color:#dbb171;
+    background-color:#ffa33a;
     padding: 1rem;
     border-radius: 5px;
     margin-bottom: 1rem;
