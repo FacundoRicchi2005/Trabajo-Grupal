@@ -204,3 +204,14 @@ p.introducción-contacto {
 .link-contacto a:hover {
     color: #E6A23C;
 }
+
+.iconos-ciudad{
+    display: row;
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+.lista-ciudad li {
+
+    list-style: none;
+}
