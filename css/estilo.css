@@ -189,3 +189,18 @@ p.introducción-contacto {
     border-radius: 5px;
     margin-bottom: 1rem;
 }
+
+.iconos-ciudad{
+    display: row;
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+.link-contacto{
+    text-decoration: none;
+    color: #1A4731;
+}
+
+.link-contacto a:hover {
+    color: #E6A23C;
+}
